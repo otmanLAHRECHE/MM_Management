@@ -51,29 +51,20 @@ class MainWindow(QMainWindow):
         self.counter = 0
         self.jumper = 0
 
-
-
-
         self.centralwidget = self.findChild(QtWidgets.QWidget, "centralwidget")
 
-
         self.circularProgressBarBase = self.findChild(QtWidgets.QFrame, "circularProgressBarBase")
-
 
         self.circularProgress = self.findChild(QtWidgets.QFrame, "circularProgress")
 
 
         self.circularBg = self.findChild(QtWidgets.QFrame, "circularBg")
 
-
         self.container = self.findChild(QtWidgets.QFrame, "container")
-
 
         self.widget = self.findChild(QtWidgets.QWidget, "widget")
 
-
         self.gridLayout = self.findChild(QtWidgets.QGridLayout, "gridLayout")
-
 
         self.labelTitle = self.findChild(QtWidgets.QLabel, "labelTitle")
 

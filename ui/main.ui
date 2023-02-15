@@ -47,7 +47,7 @@ QToolTip {
 	background-position: left center;
     background-repeat: no-repeat;
 	border: none;
-	border-left: 2px solid #FDDE6C;
+	border-left: 2px solid #6CC6FD;
 	text-align: left;
 	padding-left: 8px;
 	margin: 0px;
@@ -58,22 +58,22 @@ Bg App */
 #bgApp {	
 	background-color: #f8f8f2;
 	border: 1px solid #CCC;
-    color: #44475a;
+    color: #44495A;
 }
 
 /* /////////////////////////////////////////////////////////////////////////////////////////////////
 Left Menu */
 #leftMenuBg {	
-	background-color: #2C3F50;
+	background-color: #1E2C39;
 }
 #topLogo {
-	background-color: #2C3F50;
+	background-color: #1E2C39;
 	background-image: url(:/images/images/images/PyDracula.png);
 	background-position: centered;
 	background-repeat: no-repeat;
 }
 #titleLeftApp { font: 63 12pt &quot;Segoe UI Semibold&quot;; color: #f8f8f2; }
-#titleLeftDescription { font: 8pt &quot;Segoe UI&quot;; color: #FDDE6C; }
+#titleLeftDescription { font: 8pt &quot;Segoe UI&quot;; color: #6CCDFD; }
 
 /* MENUS */
 #topMenu .QPushButton {	
@@ -111,7 +111,7 @@ Left Menu */
 	color: rgb(255, 255, 255);
 }
 #leftMenuFrame{
-	border-top: 3px solid #6a7cb1;
+	border-top: 3px solid #6A95B1;
 }
 
 /* Toggle Button */
@@ -120,7 +120,7 @@ Left Menu */
     background-repeat: no-repeat;
 	border: none;
 	border-left: 20px solid transparent;
-	background-color: #5b6996;
+	background-color: #5B7F96;
 	text-align: left;
 	padding-left: 44px;
 	color: #f8f8f2;
@@ -144,7 +144,7 @@ Extra Tab */
     color: #f8f8f2;
 }
 #extraTopBg{	
-	background-color: rgb(193, 206, 128)
+	background-color: rgb(128, 191, 206)
 }
 
 /* Icon */
@@ -182,7 +182,7 @@ Extra Tab */
 	background-color: #657990;
 }
 #extraTopMenu .QPushButton:pressed {	
-	background-color: rgb(193, 206, 128);
+	background-color: rgb(128, 187, 206);
 	color: rgb(255, 255, 255);
 }
 
@@ -192,7 +192,7 @@ Content App */
 	background-color: #314459;
 }
 #contentBottom{
-	border-top: 3px solid #FDDE6C;
+	border-top: 3px solid #6CC2FD;
 }
 #titleRightInfo{
     color: #f8f8f2;
@@ -236,21 +236,21 @@ QTableWidget {
 	background-color: transparent;
 	padding: 10px;
 	border-radius: 5px;
-	gridline-color: #9faeda;
+	gridline-color: #94B2D1;
     outline: none;
 }
 QTableWidget::item{
-	border-color: #9faeda;
+	border-color: #9FB9DA;
 	padding-left: 5px;
 	padding-right: 5px;
-	gridline-color: #9faeda;
+	gridline-color: #9FBDDA;
 }
 QTableWidget::item:selected{
 	background-color: #8DAFD5;
     color: #f8f8f2;
 }
 QHeaderView::section{
-	background-color: #6272a4;
+	background-color: #6288A4;
 	max-width: 30px;
 	border: none;
 	border-style: none;
@@ -277,7 +277,7 @@ LineEdit */
 QLineEdit {
 	background-color: #6283A4;
 	border-radius: 5px;
-	border: 2px solid #6272a4;
+	border: 2px solid #6289A4;
 	padding-left: 10px;
 	selection-color: rgb(255, 255, 255);
 	selection-background-color: #243E5B;
@@ -401,7 +401,7 @@ QCheckBox::indicator {
     background: #6283A4;
 }
 QCheckBox::indicator:hover {
-    border: 3px solid rgb(119, 136, 187);
+    border: 3px solid rgb(119, 157, 187);
 }
 QCheckBox::indicator:checked {
     background: 3px solid #384D62;
@@ -419,7 +419,7 @@ QRadioButton::indicator {
     background: #6283A4;
 }
 QRadioButton::indicator:hover {
-    border: 3px solid rgb(119, 136, 187);
+    border: 3px solid rgb(119, 157, 187);
 }
 QRadioButton::indicator:checked {
     background: 3px solid #384D62;
@@ -437,7 +437,7 @@ QComboBox{
     color: #f8f8f2;
 }
 QComboBox:hover{
-	border: 2px solid #7490BA;
+	border: 2px solid #7498BA;
 }
 QComboBox::drop-down {
 	subcontrol-origin: padding;
@@ -468,7 +468,7 @@ QSlider::groove:horizontal {
 	background-color: #6283A4;
 }
 QSlider::groove:horizontal:hover {
-	background-color: #6272a4;
+	background-color: #6283A4;
 }
 QSlider::handle:horizontal {
     background-color: #2B5D7A;
@@ -492,7 +492,7 @@ QSlider::groove:vertical {
 	background-color: #6283A4;
 }
 QSlider::groove:vertical:hover {
-	background-color: #6272a4;
+	background-color: #627DA4;
 }
 QSlider::handle:vertical {
     background-color: #2B5D7A;
@@ -520,7 +520,7 @@ CommandLinkButton */
 }
 #pagesContainer QCommandLinkButton:hover {	
 	color: #6283A4;
-	background-color: #6272a4;
+	background-color: #627FA4;
 }
 #pagesContainer QCommandLinkButton:pressed {	
 	color: #6283A4;
@@ -530,7 +530,7 @@ CommandLinkButton */
 /* /////////////////////////////////////////////////////////////////////////////////////////////////
 Button */
 #pagesContainer QPushButton {
-	border: 2px solid #6272a4;
+	border: 2px solid #627DA4;
 	border-radius: 5px;
 	background-color: #6283A4;
     color: #f8f8f2;

@@ -13,8 +13,8 @@ class MainAppUi(QtWidgets.QMainWindow):
 
         modules.Settings.ENABLE_CUSTOM_TITLE_BAR = True
 
-        title = "COMPLEXE BEAU RIVAGE Zelfana"
-        description = "COMPLEXE BEAU RIVAGE Application"
+        title = "Medical Materials Managment"
+        description = "Medical Materials Managment"
         # APPLY TEXTS
         self.setWindowTitle(title)
 
