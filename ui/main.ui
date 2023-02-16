@@ -697,7 +697,7 @@ background-repeat: no-repeat;</string>
               </font>
              </property>
              <property name="text">
-              <string>BEAU RIVAGE</string>
+              <string>MM Management</string>
              </property>
              <property name="alignment">
               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
@@ -1466,9 +1466,15 @@ background-repeat: no-repeat;</string>
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Segoe UI'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+<<<<<<< HEAD
 &lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; color:#55aaff;&quot;&gt;MM Management&lt;/span&gt;&lt;/p&gt;
 &lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;An software application for managing the medical materials of a hospital&lt;/span&gt;&lt;/p&gt;
 &lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600; color:#ff2a2a;&quot;&gt;Created by: Mr.Otman LAHRECHE&lt;/span&gt;&lt;/p&gt;
+=======
+&lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; color:#55aaff;&quot;&gt;MM Management&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;An software application for managing medical materials of a hospital&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#aaaa7f;&quot;&gt;Created by: Mr.Otman LAHRECHE&lt;/span&gt;&lt;/p&gt;
+>>>>>>> 0f8f6d291a7864528dcb7f5f02b2377e6a198998
 &lt;p align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                   </property>
                  </widget>
@@ -1891,54 +1897,6 @@ p, li { white-space: pre-wrap; }
                       </property>
                       <layout class="QVBoxLayout" name="verticalLayout_22">
                        <item>
-                        <widget class="QFrame" name="frame">
-                         <property name="sizePolicy">
-                          <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
-                           <horstretch>0</horstretch>
-                           <verstretch>0</verstretch>
-                          </sizepolicy>
-                         </property>
-                         <property name="minimumSize">
-                          <size>
-                           <width>0</width>
-                           <height>50</height>
-                          </size>
-                         </property>
-                         <property name="frameShape">
-                          <enum>QFrame::StyledPanel</enum>
-                         </property>
-                         <property name="frameShadow">
-                          <enum>QFrame::Raised</enum>
-                         </property>
-                         <layout class="QVBoxLayout" name="verticalLayout_23">
-                          <item>
-                           <layout class="QHBoxLayout" name="horizontalLayout_6">
-                            <item>
-                             <widget class="QLabel" name="label_2">
-                              <property name="sizePolicy">
-                               <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
-                                <horstretch>0</horstretch>
-                                <verstretch>0</verstretch>
-                               </sizepolicy>
-                              </property>
-                              <property name="text">
-                               <string>Jour de :</string>
-                              </property>
-                             </widget>
-                            </item>
-                            <item>
-                             <widget class="QLabel" name="label_3">
-                              <property name="text">
-                               <string>06 join 2022</string>
-                              </property>
-                             </widget>
-                            </item>
-                           </layout>
-                          </item>
-                         </layout>
-                        </widget>
-                       </item>
-                       <item>
                         <widget class="QFrame" name="frame_2">
                          <property name="frameShape">
                           <enum>QFrame::StyledPanel</enum>
@@ -2013,7 +1971,7 @@ p, li { white-space: pre-wrap; }
                                    </font>
                                   </property>
                                   <property name="text">
-                                   <string>BANGALOW :</string>
+                                   <string>Materiels en stock:</string>
                                   </property>
                                  </widget>
                                 </item>
@@ -2042,7 +2000,11 @@ border-color: #243E5B;</string>
                            <widget class="QFrame" name="frame_3">
                             <property name="maximumSize">
                              <size>
+<<<<<<< HEAD
                               <width>250</width>
+=======
+                              <width>200</width>
+>>>>>>> 0f8f6d291a7864528dcb7f5f02b2377e6a198998
                               <height>16777215</height>
                              </size>
                             </property>
@@ -2099,6 +2061,7 @@ border-color: #243E5B;</string>
                                  <number>2</number>
                                 </property>
                                 <item>
+<<<<<<< HEAD
                                  <widget class="QLabel" name="label_6">
                                   <property name="sizePolicy">
                                    <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
@@ -2115,11 +2078,17 @@ border-color: #243E5B;</string>
                                  </widget>
                                 </item>
                                 <item>
+=======
+>>>>>>> 0f8f6d291a7864528dcb7f5f02b2377e6a198998
                                  <widget class="QFrame" name="frame_11">
                                   <property name="maximumSize">
                                    <size>
                                     <width>16777215</width>
+<<<<<<< HEAD
                                     <height>2000</height>
+=======
+                                    <height>16777215</height>
+>>>>>>> 0f8f6d291a7864528dcb7f5f02b2377e6a198998
                                    </size>
                                   </property>
                                   <property name="styleSheet">
